@@ -80,3 +80,7 @@ Sebuah aplikasi internal berbasis web untuk mendigitalisasi pencatatan stok dan 
 2. Pencatatan Transaksi Penggunaan Tinta (Multi-warna)
 3. Otomatisasi Pemotongan Stok (Tinta Original)
 4. Dashboard Statistik & Export Laporan
+
+## Database Schema
+Aplikasi ini menggunakan struktur Relational Database dengan pendekatan Header-Detail untuk merekam multi-item dalam satu transaksi.
+* ERD
