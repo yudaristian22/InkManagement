@@ -83,4 +83,9 @@ Sebuah aplikasi internal berbasis web untuk mendigitalisasi pencatatan stok dan 
 
 ## Database Schema
 Aplikasi ini menggunakan struktur Relational Database dengan pendekatan Header-Detail untuk merekam multi-item dalam satu transaksi.
-* ERD
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./public/images/InkManagement.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./public/images/InkManagement.svg">
+  <img alt="Logo Proyek" src="./public/images/InkManagement.svg">
+</picture>
