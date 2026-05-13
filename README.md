@@ -84,8 +84,14 @@ Sebuah aplikasi internal berbasis web untuk mendigitalisasi pencatatan stok dan 
 ## Database Schema
 Aplikasi ini menggunakan struktur Relational Database dengan pendekatan Header-Detail untuk merekam multi-item dalam satu transaksi.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./public/images/InkManagement.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./public/images/InkManagement.svg">
-  <img alt="Logo Proyek" src="./public/images/InkManagement.svg">
-</picture>
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./public/images/InkManagement.svg">
+        <source media="(prefers-color-scheme: light)" srcset="./public/images/InkManagement.svg">
+        <img alt="Logo Proyek" src="./public/images/InkManagement.svg">
+    </picture>
+</p>
+
+## Fitur Inti
+* **Otomatisasi User:** Sistem menggunakan fitur *Authentication* dan menyisipkan *Hidden Input* untuk otomatis merekam staf IT yang menginput tanpa perlu opsi *dropdown* manual.
+* **Form Transaksi Dinamis:** Menggunakan fitur *Repeater* dari Filament PHP, memungkinkan satu transaksi memproses berbagai warna tinta secara serentak tanpa perlu pindah halaman.

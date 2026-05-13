@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class TransactionDetail extends Model
 {
-    protected $filable = ['transaction_id', 'ink_id', 'quantity'];
+    protected $fillable = ['transaction_id', 'ink_id', 'quantity'];
 
     public function transaction(){
         return $this->belongsTo(Transaction::class);
